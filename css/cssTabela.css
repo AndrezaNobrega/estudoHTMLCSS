@@ -1,0 +1,26 @@
+#customers{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-collapse:collapse;
+}
+
+#customers td, #customers th{
+  border:1px solid darkgray;
+  padding: 8px;
+}
+/* pseudoclasse */
+#customers tr:nth-child(even){
+  background-color: #CCEA8D
+}
+
+#customers tr:hover{
+  background-color: gray;
+}
+
+#customers th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #A6BC09;
+  color: white;
+}
