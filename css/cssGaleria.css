@@ -1,0 +1,15 @@
+div.gallery{
+  margin:5px;
+  border: 1px solid #005148;
+  float:left;
+  width:180px;
+
+}
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+/* aqui é para quando a gente passa o mouse em cima */
+div.gallery:hover{
+  border: 2px solid #CCEA8D;
+}
